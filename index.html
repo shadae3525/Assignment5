@@ -3,10 +3,22 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>repl.it</title>
+    <title>Circle Calculator</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
+  <form action="javascript:calculateArea()">
+    <label for="">
+    <input type="number" id="radius-input">
+
+    <div id="radius-input">
+      <label for="id-radius" type="number" min="0" step="any">Area</label>
+      <h><em>A = &Pi;r<sup>2</sup></em></h>
+    </div>
+    <br><br>
+  <input type="submit" value="Calculate Area">
+  <p id="id-output"></p>
+
     <script src="script.js"></script>
   </body>
 </html>
